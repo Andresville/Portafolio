@@ -1,0 +1,135 @@
+/* experiencia*/
+
+section.experience {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.experience__section__title {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--cor-de-texto); 
+    margin-top: 4rem;
+}
+
+#xp,
+#ac {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 0;
+    margin: 0rem 5rem;
+}
+
+#ab,
+#ad {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0rem 5rem;
+}
+
+.experience__img {
+    background: url(codigo-secreto.png);
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__title {
+    font-weight: 700;
+    font-size: 1.35rem;
+    color: var(--cor-de-texto);
+    padding: 0 1rem;
+    margin-block-end: .5rem;
+    width: 80%;
+}
+
+.experience__text {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--cor-de-texto);
+    padding: 0 1rem;
+}
+
+.experience__description {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 1rem;
+    gap: .5rem;
+}
+
+.experiencia__botao--repo {
+    font-weight: 600;
+    font-size: 1em;
+    color: var(--cor-azul);
+    padding: 1rem;
+    width: 10vw;
+    height: 8.5vh;
+    border: 1px solid var(--cor-azul);
+}
+
+.experience__botao--demo {
+    font-weight: 600;
+    font-size: 1em;
+    color: var(--cor-blanco);
+    padding: 1rem;
+    width: 10vw;
+    height: 8.5vh;
+    background: var(--cor-azul);
+    border: none;
+}
+
+/*Mobile*/
+@media  screen and (max-width:375px) {
+    .experience__section__title {
+        font-size: 1.35rem;
+        margin-top: 2rem;
+    }
+    #xp,
+    #ac {
+    flex-direction: column;
+    margin: 0rem;
+    }
+    #ab,
+    #ad {
+    flex-direction: column;
+    margin: 0rem;
+    }
+    .experience__img {
+        max-width: 90%;
+    }
+    .experience__info{
+        width: 90%;
+    }
+    .experience__title {
+        font-size: 1rem;
+        padding: 0;
+        margin-block-end: .1rem;
+        width: 100%;
+    }
+    .experience__text {
+        font-size: .87rem;
+        padding: 0;
+    }
+    .experiencia__botao--repo {
+        font-size: .87em;
+        width: 28vw;
+    }
+    
+    .experience__botao--demo {
+        font-size: .87em;
+        width: 28vw;
+    }
+}
+
+/*Tablet*/
+@media  screen and (min-width:768px) {
+
+
+}

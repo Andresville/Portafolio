@@ -1,0 +1,54 @@
+/*Sección About*/
+
+section.about {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background: var(--cor-de-about-academic);
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 3rem 0 3rem 5rem;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--cor-de-texto);
+}
+
+.about__paragraph {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-de-texto);
+}
+
+.about__container img {
+    width: 25%;
+    background: url(image);
+}
+
+/*Mobile*/
+@media  screen and (max-width:375px) {
+    .about__container {
+        flex-direction: column;
+        width: 90%;
+        margin: 0;
+        padding: 0 1rem 1.5rem 1rem;
+    }
+    .about__title {
+        font-size: 1.35rem;
+    }
+    .about__paragraph {
+        font-size: .87rem;
+    }
+}
+
+/*Tablet*/
+@media  screen and (min-width:768px) {
+    
+
+}

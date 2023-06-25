@@ -1,0 +1,31 @@
+/*footeer*/
+
+section.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background: var(--cor-blanco);
+}
+
+.footer__rodape {
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--cor-de-texto);
+}
+
+/*Mobile*/
+@media  screen and (max-width:375px) {
+    .footer__rodape {
+        font-size: .87rem;
+    }
+
+}
+
+/*Tablet*/
+@media  screen and (min-width:768px) {
+
+
+}
