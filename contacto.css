@@ -52,6 +52,7 @@ section.formcontato {
     align-items: flex-start;
     width: 47vw;
     height: 7vh;
+    border: none;
 }
 
 .formcontato__textarea {
@@ -60,6 +61,7 @@ section.formcontato {
     align-items: flex-start;
     width: 47vw;
     height: 25vh;
+    border: none;
 }
 
 .formcontato__botao {
@@ -76,7 +78,7 @@ section.formcontato {
 }
 
 /*Mobile*/
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:450px) {
     .formcontato__img {
         display: none;
     }
@@ -91,13 +93,11 @@ section.formcontato {
         gap: .5rem;
     }
     .formcontato__input {
-        width: 75vw;
-        border: none;
+        width: 75vw;  
     }
     .formcontato__textarea {
         width: 75vw;
         height: 25vh;
-        border: none;
     }
     .formcontato__botao {
         width: 35vw;
@@ -107,7 +107,21 @@ section.formcontato {
 }
 
 /*Tablet*/
-@media  screen and (min-width:768px) {
-
+@media only screen and (min-width: 450px) and (max-width: 768px){
+    .formcontato__img {
+        display: none;
+    }
+    .formcontato__input {
+        width: 90vw;  
+    }
+    .formcontato__textarea {
+        width: 90vw;
+        height: 25vh;
+    }
+    .formcontato__botao {
+        width: 20vw;
+        height: 10vh;
+        margin-bottom: 1rem;
+    }
 
 }

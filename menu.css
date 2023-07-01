@@ -57,7 +57,7 @@ nav {
 }
 
 /*Mobile*/
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:450px) {
     .menu__header {
         width: 50%;
         margin-left: 1rem;
@@ -70,7 +70,13 @@ nav {
 }
 
 /*Tablet*/
-@media  screen and (min-width:768px) {
-    
+@media only screen and (min-width: 450px) and (max-width: 768px){
+    .menu__list{
+        display: none;
+    }
+    nav{
+        justify-content: end;
+        
+    }
 
 }

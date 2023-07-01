@@ -61,13 +61,13 @@ https://en.bem.info/methodology/quick-start/*/
 Utiliza las referencias de los breakpoints @media abajo */
 
 /*Mobile*/
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:450px) {
     
 
 }
 
 /*Tablet*/
-@media  screen and (min-width:768px) {
+@media only screen and (min-width: 450px) and (max-width: 768px){
 
 
 }

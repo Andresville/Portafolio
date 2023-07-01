@@ -57,7 +57,7 @@ section.title {
 }
 
 /*Mobile*/
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:450px) {
     .title__div {
         flex-direction: column;
     }
@@ -83,7 +83,16 @@ section.title {
 }
 
 /*Tablet*/
-@media  screen and (min-width:768px) {
+@media only screen and (min-width: 450px) and (max-width: 768px){
+    .title__bio {
+        font-size: 1.35rem;
+        margin-block-end: 0;
+    }
+    .title__subsection {
+        font-size: 1rem;
+    }
+    .title__network{
+        
+    }
     
-
 }

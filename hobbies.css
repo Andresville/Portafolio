@@ -47,7 +47,7 @@ section.hobbies {
 }
 
 /*Mobile*/
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:450px) {
     section.hobbies {
         margin: 0;
     }
@@ -63,7 +63,17 @@ section.hobbies {
 }
 
 /*Tablet*/
-@media  screen and (min-width:768px) {
-
-
+@media only screen and (min-width: 450px) and (max-width: 768px){
+    section.hobbies {
+        margin: 0;
+    }
+    .hobbies__line{
+        flex-wrap: wrap;
+    }
+    .hobbies__box{
+        width: 25%; 
+        height: 25vh;
+        margin-left:.7rem;
+        margin-right:.7rem;
+    }
 }
