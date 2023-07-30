@@ -38,6 +38,10 @@ section.hobbies {
     padding: .5rem;
 }
 
+.hobbies__img img{
+    height: 3.5em;
+}
+
 .hobbies__name {
     align-items: center;
     font-weight: 700;
