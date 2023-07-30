@@ -17,7 +17,7 @@ section.hobbies {
 .hobbies__line {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .hobbies__box {
@@ -55,7 +55,7 @@ section.hobbies {
         flex-wrap: wrap;
     }
     .hobbies__box {
-        width: 35%;
+        width: 30%;
         height: 15vh;
         margin-left:.7rem;
         margin-right:.7rem;
